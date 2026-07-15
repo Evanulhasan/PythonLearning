@@ -22,7 +22,7 @@ print("Done with the loop")
 # pritn
 
 
-count = -5 
+count = 5 
 
 while count>0:
     print(count)
