@@ -50,7 +50,7 @@ def average(*numbers):
         sum +=  i 
     return sum/len(numbers)
 
-print(average(5,6,7,8,4,9,19,33,44,645,45,54)) # Varible-length Argument
+print(average(5,6,7,8,4,9,19,33,44,645,45,54)) # Varible-length Argument 
 c = average(53,44,33,43,7,25)
 print(c)
 
