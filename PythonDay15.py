@@ -3,6 +3,7 @@
 
 import datetime
 current_time = datetime.datetime.now()  # Get the current time
+print(type(current_time))
 hour = current_time.hour
 if hour> 5 and hour < 12:
     print("Good morning!")
