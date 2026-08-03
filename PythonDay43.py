@@ -9,6 +9,8 @@ packages"""
 # pip freeze > requirements.txt 
 # pip install -r requirements.txt
 
+import pandas as pd
+print(pd.__version__)
 
 
 
