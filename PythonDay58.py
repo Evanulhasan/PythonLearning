@@ -12,7 +12,7 @@ class Person:
 
 a = Person("Evanul", "Developer")
 b = Person("Divya", "HR")
-c = Person()
+
 a.info()
 b.info()
 # # print(a.name)
