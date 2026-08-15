@@ -32,6 +32,7 @@ class BankAccount:
     def deposit(self, amount):
         self.__balance += amount
         print(f"Deposited {amount}. Secret balance updated.")
+        
 """2. Abstraction (Hiding Complexity)
 The Concept: Showing only the essential features to the user while 
 hiding the complex background details. You force child classes to 
@@ -51,6 +52,7 @@ class RemoteControl(ABC):
 class TVRemote(RemoteControl):
     def turn_on(self):
         print("Sending infrared signal to turn on the TV.")
+        
 """3. Inheritance (Reusing Code)
 The Concept: Creating a new class that takes on (inherits) the properties
 and behaviors of an existing class. It prevents you from writing the 
@@ -71,6 +73,7 @@ class Dog(Animal):
 my_dog = Dog()
 my_dog.eat()  # Inherited behavior
 my_dog.bark() # Unique behavior
+
 """4. Polymorphism (Many Forms)
 The Concept: Different classes can be treated as the same type through 
 a common interface. The same method name will do different things 
